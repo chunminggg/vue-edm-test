@@ -27,7 +27,7 @@
 </style>
 <template>
     <div id="main">
-        <h1>表单拖拉操作</h1>
+    <router-link v-bind:to="'home'">Home</router-link>
         <Row>
             <Col span="4">
             <div class="drag">
